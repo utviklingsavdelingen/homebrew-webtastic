@@ -2,27 +2,27 @@
 class Webtastic < Formula
   desc "Manage and deploy Webtastic sites from the command-line"
   homepage "https://webtastic.site/docs/cli"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.1/webtastic_darwin_arm64.tar.gz"
-      sha256 "b2b2cdf5ec8b1d13a2936e80b59549b654648598280fbba7ba18486939f95d08"
+      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.2/webtastic_darwin_arm64.tar.gz"
+      sha256 "815e76bf093b324ae66188c3545a1a0ca926af2a3828baf16d735e205bff8fbb"
     end
     on_intel do
-      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.1/webtastic_darwin_amd64.tar.gz"
-      sha256 "c2a37e1434eabda136f4a3810261bffa2a8b23bf97d3d17a58b68484396722fb"
+      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.2/webtastic_darwin_amd64.tar.gz"
+      sha256 "fcc582b3c2772a9d6ba8825c16bb9a9544a94dcef35e1690f7af7e89719fae79"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.1/webtastic_linux_arm64.tar.gz"
-      sha256 "1fad5028662910363f21bd6dc34c6f650db4a5ca05644d6eec285804c52d04cc"
+      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.2/webtastic_linux_arm64.tar.gz"
+      sha256 "ab19effc2165a00c9057e2c0f111f578cb35eebe0e59b450456fdb78a7ef44e3"
     end
     on_intel do
-      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.1/webtastic_linux_amd64.tar.gz"
-      sha256 "db7a851e7f837d44f89e2fcd4a14cf62d6ee8fa7ff3e64b5bda771bf036e6404"
+      url "https://storage.googleapis.com/webtastic-497308-downloads/cli/v0.1.2/webtastic_linux_amd64.tar.gz"
+      sha256 "66cc4650826e6a4fd8f695a7261369a403f771c526d6a880fd2411ccd63f29ee"
     end
   end
 
